@@ -8,7 +8,7 @@
 
 ## 🚀 Демо
 
-👉 [Посмотреть демо]((https://foxwolf2004.github.io/To-do-list/))
+👉  [Смотреть демо](https://foxwolf2004.github.io/To-do-list/)
 
 ## 📌 Возможности
 
