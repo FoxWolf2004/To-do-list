@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <title>To Do</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper"><h1>ToDo List</h1></div>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <article class="control">
+          <form action="" name="add">
+            <textarea
+              name="todoText"
+              id="todoText"
+              cols="30"
+              rows="10"
+              placeholder="введите текст задачи"
+              required
+            ></textarea>
+            <button type="submit">+</button>
+          </form>
+        </article>
+        <article class="cont">
+          <div class="contNotDone">
+            <h2 class="contNotDoneText"></h2>
+          </div>
+
+          <div class="Progress">
+            <h2 class="ProgressText"></h2>
+          </div>
+
+          <div class="contDone">
+            <h2 class="contDoneText"></h2>
+          </div>
+        </article>
+        <article class="todoLists" id="notDone">
+          <div class="todoCont">
+            <h2>Не завершеные</h2>
+            <div class="notDoneCont"></div>
+          </div>
+
+          <div class="todoCont" id="inProgress">
+            <h2>в процессе</h2>
+            <div class="inProgressCont"></div>
+          </div>
+
+          <div class="todoCont" id="Done">
+            <h2>завершеные задачи</h2>
+            <div class="DoneCont"></div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrapper"></div>
+    </footer>
+  </body>
+  <script src="scripts/core.js"></script>
+</html>

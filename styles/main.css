@@ -1,0 +1,106 @@
+.todoLists {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.todoCont {
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 10px;
+  width: 50%;
+  height: auto;
+
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-width: 2px;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.notDoneCont,
+.inProgressCont,
+.DoneCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+
+  background-color: aliceblue;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-width: 2px;
+  margin: 0 auto;
+}
+
+.notDoneCont > .todo {
+  background-color: rgb(255, 218, 218);
+}
+
+.inProgressCont > .todo {
+  background-color: rgb(196, 251, 255);
+}
+
+.DoneCont > .todo {
+  background-color: rgb(181, 255, 197);
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  background-color: aliceblue;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-width: 2px;
+  margin: 0 auto;
+}
+
+.todo > .todoText {
+  display: block;
+  width: 80%;
+  align-self: start;
+}
+
+.todo > .todoStatus {
+  display: block;
+  align-self: self-end;
+  font-size: 0.7rem;
+}
+
+.todo > .delBtn {
+  display: block;
+  width: 20%;
+  height: auto;
+  align-self: self-end;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+}
+.delBtn > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
