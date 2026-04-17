@@ -8,7 +8,7 @@
 
 ## 🚀 Демо
 
-👉 [Посмотреть демо](https://your-demo-link.netlify.app) *(замените на ссылку после деплоя)*
+👉 [Посмотреть демо]([https://your-demo-link.netlify.app](https://foxwolf2004.github.io/To-do-list/))
 
 ## 📌 Возможности
 
