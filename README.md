@@ -8,7 +8,7 @@
 
 ## 🚀 Демо
 
-👉 [Посмотреть демо](https://your-demo-link.netlify.app](https://foxwolf2004.github.io/To-do-list/))
+👉 [Посмотреть демо]((https://foxwolf2004.github.io/To-do-list/))
 
 ## 📌 Возможности
 
